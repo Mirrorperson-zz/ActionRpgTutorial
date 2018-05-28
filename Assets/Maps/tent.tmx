@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="left-down" width="7" height="7" tilewidth="16" tileheight="16" nextobjectid="1">
+ <properties>
+  <property name="unity:scale" value="0.0625"/>
+ </properties>
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <layer name="TransparentBlocks" width="7" height="7" opacity="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+1,1,1,0,1,1,1,
+0,0,1,1,1,0,0
+</data>
+ </layer>
+ <layer name="Floor" width="7" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+858,859,859,859,859,859,860,
+915,916,916,916,916,916,917,
+972,973,973,916,973,973,974,
+0,0,0,973,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Middle" width="7" height="7">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+509,509,509,509,509,509,509,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Top" width="7" height="7" offsetx="2.84217e-14" offsety="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+392,452,452,452,452,452,392,
+449,0,0,127,24,0,449,
+506,0,0,0,593,0,506,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer name="Door" width="7" height="7">
+  <properties>
+   <property name="unity:sortingLayerName" value="WorldObjects"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,
+0,0,0,284,0,0,0,
+0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
