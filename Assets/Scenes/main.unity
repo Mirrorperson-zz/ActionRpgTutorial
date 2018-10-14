@@ -1914,7 +1914,7 @@ MonoBehaviour:
   - {fileID: 914654989}
   - {fileID: 1821083409}
   musicCanPlay: 1
-  volume: 0.86
+  volume: 0
 --- !u!4 &1257796003
 Transform:
   m_ObjectHideFlags: 0
