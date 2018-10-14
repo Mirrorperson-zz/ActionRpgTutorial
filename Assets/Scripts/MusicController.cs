@@ -17,15 +17,6 @@ public class MusicController : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (!mcExists)
-        {
-            mcExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
 	
 	// Update is called once per frame

@@ -19,16 +19,6 @@ public class UIManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        if (!uiExists)
-        {
-            uiExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
         playerStats = GetComponent<PlayerStats>();
         theMusicController = FindObjectOfType<MusicController>();
         showVolumeButton = GetComponent<Button>();

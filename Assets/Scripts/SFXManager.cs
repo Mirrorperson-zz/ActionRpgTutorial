@@ -11,16 +11,6 @@ public class SFXManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        if (!sfxManagerExists)
-        {
-            sfxManagerExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
         // Set up audioIndexesMap
         audioIndexesMap = new Dictionary<string, int>();
         int indexCounter = 0;

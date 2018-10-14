@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionRPGTutorial", "ActionRPGTutorial.csproj", "{30D7E3D0-C5B0-1D95-3AEB-CA1F1E77DF80}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionRpgTutorial", "ActionRpgTutorial.csproj", "{30D7E3D0-C5B0-1D95-3AEB-CA1F1E77DF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionRPGTutorial.Editor", "ActionRPGTutorial.Editor.csproj", "{9FCC167B-BAB4-9A78-9679-D44D767EAA17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionRpgTutorial.Editor", "ActionRpgTutorial.Editor.csproj", "{04B3A7DA-53B0-79D0-C1CE-EF7F781B9410}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,12 +17,15 @@ Global
 		{30D7E3D0-C5B0-1D95-3AEB-CA1F1E77DF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30D7E3D0-C5B0-1D95-3AEB-CA1F1E77DF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30D7E3D0-C5B0-1D95-3AEB-CA1F1E77DF80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9FCC167B-BAB4-9A78-9679-D44D767EAA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9FCC167B-BAB4-9A78-9679-D44D767EAA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9FCC167B-BAB4-9A78-9679-D44D767EAA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9FCC167B-BAB4-9A78-9679-D44D767EAA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04B3A7DA-53B0-79D0-C1CE-EF7F781B9410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B3A7DA-53B0-79D0-C1CE-EF7F781B9410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B3A7DA-53B0-79D0-C1CE-EF7F781B9410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B3A7DA-53B0-79D0-C1CE-EF7F781B9410}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F15249-969D-4A2C-9852-E46D3E7E7502}
 	EndGlobalSection
 EndGlobal

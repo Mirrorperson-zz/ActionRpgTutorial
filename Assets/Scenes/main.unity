@@ -219,6 +219,22 @@ MonoBehaviour:
   questNumber: 1
   startQuest: 0
   endQuest: 1
+--- !u!1 &69526705 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1831709669856546, guid: bcb644b0cfd03314e887d18524c4b001,
+    type: 2}
+  m_PrefabInternal: {fileID: 1034091534}
+--- !u!114 &69526706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 69526705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0615071dadcc32f4fa0ec37a6e5bab42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &90627755
 GameObject:
   m_ObjectHideFlags: 0
@@ -1898,7 +1914,7 @@ MonoBehaviour:
   - {fileID: 914654989}
   - {fileID: 1821083409}
   musicCanPlay: 1
-  volume: 0
+  volume: 0.86
 --- !u!4 &1257796003
 Transform:
   m_ObjectHideFlags: 0
